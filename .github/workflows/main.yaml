@@ -22,4 +22,4 @@ jobs:
         run: npm install -g surge
 
       - name: Desplegar a Surge.sh
-        run: surge ./ --domain https://YelisWeb.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ --domain https://yelisweb.surge.sh --token ${{ secrets.SURGE_TOKEN }}
